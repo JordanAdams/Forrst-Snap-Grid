@@ -1,0 +1,51 @@
+/**********
+ * @Author: Jordan Adams
+ * @Project: None
+ * @Description: Custom CSS reset
+ * @Created: 14/05/2011
+ ***********/
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: 100%;
+	font-family: Arial, sans-serif;
+	color: #222;
+	outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+a, a:visited, a:hover {
+	color: #607890;
+}
+
+a:hover {
+	color: #036;
+}
+
+pre, code {
+	font: 90% Courier, monospace;
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+-moz-selection{ background: #FF87A5; color:#fff; text-shadow: none; }
+::selection { background:#FF87A5; color:#fff; text-shadow: none; }
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+
+
+
+

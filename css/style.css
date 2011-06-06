@@ -1,0 +1,74 @@
+body {
+	color: #444;
+	font: 10pt arial;	
+	background: #fafafa;
+	padding: 30px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 200%;
+	color: #8B5D24;
+	margin-bottom: 20px;
+}
+
+label {
+	color: #487444;
+	font-weight: bold;
+}
+
+#username {
+	background: none;
+	border: none;
+	border-bottom: dashed 1px #AAA;
+	width: 100px;
+	color: #666;
+	outline: none;
+}
+
+#snapGrid {
+	width: 112px;
+	line-height: 0px;
+	margin: 20px auto;
+}
+
+a {
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+}
+
+#snapGrid article {
+	width: 50px;
+	height: 50px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-color: #FFF;
+	border: solid 1px #523517;
+	display: inline-block;
+	margin: 2px;
+	border-radius: 3px;
+	box-shadow: inset 0px 0px 3px #FFF;
+}
+
+#snapGrid article .overlay {
+	background: url('../img/open-overlay.png') center center no-repeat;
+	width: 50px;
+	height: 50px;
+	display: none;
+}
+
+footer {
+	font: italic 70% arial;
+	color: #999;
+}
+
+
+
+
+
+
+
+
+
