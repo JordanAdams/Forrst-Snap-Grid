@@ -1,26 +1,29 @@
-	/** When adding the data **/
-	
-	$passRaw = $_POST['password'];
-	$pass = md5($passRaw . sha1($passRaw)); //Hash of raw password + salt
-	
-	//Send $pass to the database
-	
-	
-	/*************************************/
-	
-	
-	/** When checking against record **/
-	//$PassRecordRaw = database record
-	
-	$passInputRaw = $_POST['password'];
-	$passInput = md5($passInputRaw . sha1($passInputRaw));
-	
-	if($passInput == $passRecord) {
-	
-		//Valid password
-		
-	} else {
-	
-		//Invalid password
-	
-	}
+#Forrst Snap Grid
+
+Forrst Snap Grid is a simple widget style jQuery plugin. It creates a small 4x4 thumbnail grid of the specified user's latest snaps on Forrst.
+
+#Usage
+
+The plugin appends the element it is applied to with a snap grid.
+***
+###Parameters
+
+**username:** The Forrst user's username
+***
+###Example
+
+```js
+$('#element').forrstSG('jordanadams')
+```
+
+#Changelog
+
+**1.0** - Initial Release
+
+#Issues
+
+Please report any issues you have using one of the following:
+
+* The issues section of this repo
+* Twitter: @JordanCallumA
+* Email: contact@jordan-adams.co.uk
