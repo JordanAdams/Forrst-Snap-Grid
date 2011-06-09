@@ -11,13 +11,28 @@
 		<title>Forrst Snap Grid</title>
 		<link href="css/reset.css" rel="stylesheet" />
 		<link href="css/style.css" rel="stylesheet" />
+		<link href="css/forrstsnapgrid.css" rel="stylesheet" />
 		<script src="http://code.jquery.com/jquery.min.js"></script>
-		<script src="js/main.js"></script>
+		<script src="js/forrstsnapgrid.js"></script>
 		<script>
 			
 			$(document).ready(function() {
 				
-				/* Do Stuff */
+				$('#gridWrap').forrstSG(
+					$('#username').val()
+				);
+				
+				$('#username').keyup(function(key) {
+				
+					if(key.which === 13) {
+					
+						$('#gridWrap').forrstSG(
+							$(this).val()
+						);
+					
+					}
+				
+				});
 				
 			});
 			
@@ -26,13 +41,11 @@
 
 	<body>
 		
-		<div id="glow"></div>
-		
 		<h1>Forrst Snap Grid</h1>
 		
 		<label>User: </label><input type="text" value="JordanAdams" id="username"></input>
 		
-		<div id="snapGrid"></div>
+		<div id="gridWrap"></div>
 		
 		<footer>by, Jordan Adams<br />@JordanCallumA</footer>
 		

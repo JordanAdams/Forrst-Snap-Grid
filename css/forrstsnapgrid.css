@@ -1,0 +1,32 @@
+#snapGrid {
+	width: 112px;
+	line-height: 0px;
+	margin: 20px auto;
+}
+
+#snapGrid a {
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+}
+
+#snapGrid article {
+	width: 50px;
+	height: 50px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-color: #FFF;
+	border: solid 1px #523517;
+	display: inline-block;
+	margin: 2px;
+	border-radius: 3px;
+	box-shadow: inset 0px 0px 3px #FFF;
+}
+
+#snapGrid article .overlay {
+	background: url('../img/open-overlay.png') center center no-repeat;
+	width: 50px;
+	height: 50px;
+	display: none;
+}
